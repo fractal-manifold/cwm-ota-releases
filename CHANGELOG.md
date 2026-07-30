@@ -11,6 +11,10 @@ versions follow [Semantic Versioning](https://semver.org) (`MAJOR.MINOR.PATCH`,
 the same packed 8.8.16 value the firmware uses for its anti-rollback floor).
 Dev canaries carry a `-dev.<YYYYMMDDhhmm>` prerelease suffix.
 
+## [0.11.2] - 2026-07-31
+
+- Panel tiles can now ask for a text size — small, medium, large or huge — so a headline number fills its tile instead of being rendered at the default size.
+
 ## [0.11.0] - 2026-07-27
 
 - Set up a device over the USB cable. The first-boot screen is now a three-route chooser — join the setup Wi-Fi, type the network on the device, or push Wi-Fi, broker URL and key from Claude Code over USB with no pairing code to read. Remembered open networks are no longer joined automatically.
