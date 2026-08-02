@@ -11,6 +11,10 @@ versions follow [Semantic Versioning](https://semver.org) (`MAJOR.MINOR.PATCH`,
 the same packed 8.8.16 value the firmware uses for its anti-rollback floor).
 Dev canaries carry a `-dev.<YYYYMMDDhhmm>` prerelease suffix.
 
+## [0.11.3] - 2026-08-02
+
+- Line and bar charts on the custom panel now show their y-axis min/max values (hide with range_labels:false).
+
 ## [0.11.2] - 2026-07-31
 
 - Panel tiles can now ask for a text size — small, medium, large or huge — so a headline number fills its tile instead of being rendered at the default size.
