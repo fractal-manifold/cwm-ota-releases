@@ -11,6 +11,10 @@ versions follow [Semantic Versioning](https://semver.org) (`MAJOR.MINOR.PATCH`,
 the same packed 8.8.16 value the firmware uses for its anti-rollback floor).
 Dev canaries carry a `-dev.<YYYYMMDDhhmm>` prerelease suffix.
 
+## [1.0.0] - 2026-08-19
+
+- TokenMonitor now finds your broker again in about 30 seconds when your laptop's IP changes, instead of taking several minutes, and a device set up without a broker address can now locate one by itself.
+
 ## [0.11.4] - 2026-08-02
 
 - El panel dibuja las barras desde cero, así que un día flojo se ve como una barra baja y no como un hueco vacío.
